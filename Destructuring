@@ -1,0 +1,13 @@
+
+Object 
+Destructuring in ecma script applies as
+
+Lets take an example with an object
+
+ const Moinuddin = { name : "Moin", age : 22 , city: "Bangalore"}
+
+ if i want to access object moinuddin property ,it would be like Moinuddin.name or Moinuddin.age 
+
+ Instead in ecma script we can define with const to destructure
+
+ const { name , age , city } = Moinuddin;

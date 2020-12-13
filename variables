@@ -1,0 +1,8 @@
+
+
+Babel :- it is transpiler that converts es6 to es5 for compatibility issues
+
+1: Let and const 
+
+var is function scoped(within a function will apply) and let is block scoped(within a block will apply)
+

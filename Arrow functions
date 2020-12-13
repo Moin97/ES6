@@ -1,0 +1,19 @@
+so arrow functions can be added with =>
+
+example 
+
+es5 :
+
+function moin(a,b){
+	return a+b;
+}
+
+moin(5+5) returns 10
+
+es6 :
+
+let moin = (a,b) => {
+	return (a+b)
+}
+
+moin(5,5) returns 10

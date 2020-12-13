@@ -1,0 +1,18 @@
+Suppose we have an object with parameter
+
+Example 
+
+const moin = { name = "moin",age=22,"city": "bangalore"}
+
+const {name,age,city} = moin
+
+Now we need to access name,age,city in another object
+
+
+we can easily do that 
+
+const fullobj = {name : name, age:age,city:city}
+     or
+const shortobj = { name,age,city}
+
+

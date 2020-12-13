@@ -1,0 +1,19 @@
+Lets take an example with es5 and es6
+
+In es5 suppose if we want to make assign a default value,we make 
+
+function moin(age){
+	return age;
+}
+
+if we try to access function moin,it will return undefined due to age value is not available
+
+In es6,we can add our default value in parameter
+
+example
+
+function moin(age = 23){
+	return age;
+}
+
+if we try to access function moin,it will return default age value which is defined

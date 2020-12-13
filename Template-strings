@@ -1,0 +1,9 @@
+In normal js or es5 
+
+Example 
+
+let show = "My name is"+ name+ "My age is"+age+
+
+In es6 template strings can be easily done using backticks ``
+
+let show = `my name is  ${name}. my age is  ${age}`
